@@ -36,7 +36,7 @@ const App: React.FC = () => {
   }, []);
 
   const fetchInitialData = () => {
-    fetch('http://127.0.0.1:5000/fetch-records')
+    fetch('https://weatherapp-server-su8d.onrender.com/fetch-records')
       .then(response => response.json())
       .then(data => {
         setData(data);
