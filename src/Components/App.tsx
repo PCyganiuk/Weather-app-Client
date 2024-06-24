@@ -16,7 +16,7 @@ interface DataPoint {
 }
 
 const App: React.FC = () => {
-  const [data, setData] = useState<DataPoint[]>([]);
+  const [data, setData] = useState<string[]>([]);
   const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
   const [loading, setLoading] = useState<boolean>(true);
 
