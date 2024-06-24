@@ -1,0 +1,18 @@
+/* Features.css */
+.features-container {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.features-container h1 {
+  color: #0056b3; /* Dark blue for titles */
+  margin-bottom: 15px;
+}
+
+.features-container p {
+  color: #666;
+  line-height: 1.6;
+}

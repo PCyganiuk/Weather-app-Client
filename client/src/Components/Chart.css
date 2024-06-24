@@ -1,0 +1,29 @@
+/* Chart.css */
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.top-chart, .bottom-charts {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.bottom-charts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart {
+    width: 100%; /* Full width for charts */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.chart.half-width {
+    width: 48%; /* Adjusted width for side-by-side charts */
+}

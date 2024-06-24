@@ -1,0 +1,53 @@
+/* App.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light background color for fallback */
+}
+
+.app-container {
+    background-image: url('https://radarburz.pl/wp/wp-content/uploads/2022/08/chmury.jpeg'); /* Using the provided cloud image */
+    background-size: cover; /* Cover the entire area of the app container */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed; /* Fixed background on scroll */
+    background-position: center; /* Center the background image */
+    color: #333; /* Text color */
+    min-height: 100vh; /* Minimum height */
+    padding: 20px;
+}
+
+.navbar {
+    background-color: rgba(0, 123, 255, 0.85); /* Semi-transparent blue for navbar */
+    border-bottom: 3px solid #007bff;
+}
+
+.nav-link {
+    color: white !important; /* Links are white for visibility against the dark navbar */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Blue color for headings to match the navbar */
+}
+
+.chart-container, .features-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly more opacity for better readability */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Additional styles for hover effects in App.css */
+
+.control-button:hover, .nav-link:hover {
+    background-color: #0056b3;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.navbar {
+    transition: background-color 0.3s ease;
+}

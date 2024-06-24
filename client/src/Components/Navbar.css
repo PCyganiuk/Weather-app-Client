@@ -1,0 +1,45 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff; /* Vibrant blue background */
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar-brand, .nav-link {
+    color: white; /* White text for high contrast */
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    padding: 0 10px; /* Spacing between items */
+}
+
+.nav-item .nav-link {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.nav-item .nav-link:hover, .nav-item .nav-link:focus {
+    background-color: #0056b3; /* Darker blue on hover for better interaction feedback */
+    color: #ffffff;
+}
+
+/* Responsive Design: Ensure the navbar remains horizontal on smaller devices */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-wrap: nowrap; /* Prevent wrapping on small screens */
+        overflow-x: auto; /* Allows scrolling horizontally if space is insufficient */
+    }
+}

@@ -1,0 +1,55 @@
+/* WeatherForecast.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card.weather-forecast {
+    width: 100%;
+    max-width: 900px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.chart-container {
+    margin-top: 20px;
+}
+
+.chart-container canvas {
+    width: 100% !important;
+    height: auto !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card.weather-forecast {
+        padding: 10px;
+    }
+
+    .card-header {
+        font-size: 1.2em;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+}
