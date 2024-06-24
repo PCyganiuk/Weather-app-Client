@@ -7,13 +7,6 @@ import Chart from './Chart';
 import Login from './Login';
 import WeatherForecast from './WeatherForecast';
 
-interface DataPoint {
-  date: string;
-  time: string;
-  humidity: number;
-  pressure: number;
-  temperature: number;
-}
 
 const App: React.FC = () => {
   const [data, setData] = useState<string[]>([]);
