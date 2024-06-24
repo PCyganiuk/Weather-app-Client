@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Navbar from './Navbar';
 import Chart from './Chart';
-import Features from './Features';
 import Login from './Login';
 import WeatherForecast from './WeatherForecast';
 
